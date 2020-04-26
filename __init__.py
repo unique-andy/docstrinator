@@ -1,1 +1,0 @@
-from docstrinator.docstrinator import Decor
