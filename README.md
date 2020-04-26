@@ -5,15 +5,20 @@
 # Decorator for autogenerating docstrings for python functions.
 
 ## Initializing
->>> from docstrinator import Decor
+```Python
+from docstrinator import Decor
 decor = Decor(TepmlateType='numpy').decor
 
->>>@decor
-def doubled(value1=1, value2=0):
-    return value1**2
+@decor
+def doubled(value):
+    return value**2
 
->>>doubled(2)
+doubled(2)
+```
+
 ## Print output
+```Python
+"""
 HIGH LEVEL ANNOTATION
 
 DESCRIBING TEXT
@@ -21,14 +26,15 @@ DESCRIBING TEXT
 Parameters
 ----------
 
-value1 : int
+value : int
    Parameter.
 
 Returns
 -------
 int
    Thing that returns.
-    
+"""
+```    
 
 
 License
