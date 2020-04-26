@@ -14,16 +14,20 @@ def doubled(value1=1, value2=0):
 
 >>>doubled(2)
 ## Print output
->  HIGH LEVEL ANNOTATION
->   DESCRIBING TEXT
->    Parameters
->   ----------
->    value1 : int
->        Parameter.
->   Returns
->    -------
->    int
->       Thing that returns.
+HIGH LEVEL ANNOTATION
+
+DESCRIBING TEXT
+
+Parameters
+----------
+
+value1 : int
+   Parameter.
+
+Returns
+-------
+int
+   Thing that returns.
     
 
 
